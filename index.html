@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Registration Form</title>
+</head>
+<body>
+  <div class="reg-container">
+    <div class="side-image">
+      <img src="sidepicture.jpg" alt="Side Picture" />
+    </div>
+    <div class="form-box">
+      <h2>Registration Form</h2>
+      <form action="">
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Username" required />
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="form-group">
+          <input type="password" id="pwd" name="pwd" placeholder="Password" required />
+        </div>
+        <div class="form-group">
+          <input type="date" name="DOB" id="DOB" />
+        </div>
+        <div class="form-group gender">
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label>
+        </div>
+        <div class="form-buttons">
+          <button class="dot" type="submit">Submit</button>
+          <button class="dom" type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
